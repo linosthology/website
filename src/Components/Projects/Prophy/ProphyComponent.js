@@ -4,11 +4,11 @@
 import React, { Component } from 'react'
 import { Container, Row, Image } from 'react-bootstrap'
 
-import prophyImg from '../../../Images/prophy.png'
-import prophyImg2 from '../../../Images/prophy2.png'
-import prophyImg3 from '../../../Images/prophy3.png'
-import prophyImg4 from '../../../Images/prophy4.png'
-import prophyImg5 from '../../../Images/prophy5.png'
+import prophyImg from '../../../Images/prophy/prophy.png'
+import prophyImg2 from '../../../Images/prophy/prophy2.png'
+import prophyImg3 from '../../../Images/prophy/prophy3.png'
+import prophyImg4 from '../../../Images/prophy/prophy4.png'
+import prophyImg5 from '../../../Images/prophy/prophy5.png'
 import { Link } from 'react-router-dom'
 
 export default class ProphyComponent extends Component {

@@ -1,0 +1,20 @@
+version: '3'
+
+vars:
+  sshHost: moriah
+tasks:
+  default: ${GOTASK_BIN:-task} --list
+  npmInstall:
+    desc: Perform npm install
+    cmds:
+      - npm install
+  build:
+    desc: Exports the resume in pdf format.
+    deps:
+      - npmInstall
+    cmds:
+      - npm run build
+  deploy:
+    desc: Deploys the rendered build directory for the website to moriah
+    cmds:
+      - rsync -r build/* "{{.sshHost}}":/home/linus/private/website/

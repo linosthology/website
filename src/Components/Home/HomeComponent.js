@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Image from 'react-bootstrap/Image'
-import KiteImage from '../../Images/kitesurf.JPG'
+import SurfImage from '../../Images/surf.jpeg'
 import { Container, Row, Col } from 'react-bootstrap'
 
 export default class HomeComponent extends Component {
@@ -20,7 +20,7 @@ export default class HomeComponent extends Component {
                     </Row>
                     <Row className='pdTop pdBot'>
                         <Col xs={20}>
-                            <Image src={KiteImage} className='max100' />
+                            <Image src={SurfImage} className='max100' />
                         </Col>
                     </Row>
                 </Container>

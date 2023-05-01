@@ -2,10 +2,10 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react'
 import { Container, Row, Image } from 'react-bootstrap'
-import labManagerImg from '../../../Images/labManager.PNG'
-import labManagerImg2 from '../../../Images/labManager2.PNG'
-import labManagerImg3 from '../../../Images/labManager3.PNG'
-import labManagerImg4 from '../../../Images/labManager4.PNG'
+import labManagerImg from '../../../Images/labManager/labManager.PNG'
+import labManagerImg2 from '../../../Images/labManager/labManager2.PNG'
+import labManagerImg3 from '../../../Images/labManager/labManager3.PNG'
+import labManagerImg4 from '../../../Images/labManager/labManager4.PNG'
 import { Link } from 'react-router-dom'
 
 export default class LabManagerComponent extends Component {
