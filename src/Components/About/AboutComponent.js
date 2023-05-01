@@ -16,7 +16,7 @@ export default class AboutComponent extends Component {
                         </span>
                     </Row>
                     <Row className='pdTop'>
-                        <Col xs={20}>
+                        <Col xs={20} className='max60'>
                             <Image src={HeadshotImage} className='max100' />
                         </Col>
                     </Row>
@@ -24,7 +24,7 @@ export default class AboutComponent extends Component {
                         <div className='flexRow center pdTop pdBot'>
                             <div>
                                 <a
-                                    href='mailto:linusfrotscher@gmail.com'
+                                    href='mailto:linus.frotscher@gmail.com'
                                     className='fas fa-envelope widthPadding icons nostyle'
                                 ></a>
                             </div>

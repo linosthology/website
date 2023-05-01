@@ -44,6 +44,9 @@ function App() {
                                         <Nav.Link as={Link} to='/projects'>
                                             Projects
                                         </Nav.Link>
+                                        <Nav.Link as={Link} to='/resume' target="_blank">
+                                            Resume
+                                        </Nav.Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>

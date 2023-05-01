@@ -13,13 +13,11 @@ export default class HomeComponent extends Component {
                             Welcome to my Website!
                         </h4>
                         <span className='centerSpan pdTop'>
-                            I am Linus, a computer science student studying in
-                            Flensburg, Germany. On here you can find more
-                            information about me and about projects I worked on.
+                            Hello, my name is Linus, a Site Reliability Engineer from Hamburg. Since I have not maintained this Website in a while you can currently only find old university projects here alongside more information about me.
                         </span>
                     </Row>
                     <Row className='pdTop pdBot'>
-                        <Col xs={20}>
+                        <Col xs={20} className='max60'>
                             <Image src={SurfImage} className='max100' />
                         </Col>
                     </Row>
