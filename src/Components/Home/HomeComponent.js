@@ -13,7 +13,10 @@ export default class HomeComponent extends Component {
                             Welcome to my Website!
                         </h4>
                         <span className='centerSpan pdTop'>
-                            Hello, my name is Linus, a Site Reliability Engineer from Hamburg. Since I have not maintained this Website in a while you can currently only find old university projects here alongside more information about me.
+                            Hi there, nice to meet you.
+                            My name is Linus and I'm a Site Reliability Engineer based in Hamburg.
+                            On my website, you can find some projects I have been working on during university as well as my resume.
+                            Have a look around and if you have any questions, please feel free to reach out.
                         </span>
                     </Row>
                     <Row className='pdTop pdBot'>

@@ -12,7 +12,14 @@ export default class AboutComponent extends Component {
                     <Row className='dark flexColumn'>
                         <h4 className='centerText pdTop'>About</h4>
                         <span className='centerSpan pdTop'>
-                            Hello, my name is Linus, a Site Reliability Engineer from Hamburg. I hold a Bachelor's degree in Applied Computer Science from Flensburg University. During my studies, I interned at Zenner IoT Solutions in Hamburg, where I was introduced to DevOps and automation. As a member of the DevOps team, I managed all VMs and maintained docker swarm setups, utilizing various tools such as Gitlab CI/CD, Ansible, Nginx, and Graylog for logging. I also set up a k3s Kubernetes cluster and wrote my thesis on "Comparing Docker Swarm to Kubernetes in Preparation of Migration Projects." After completing my degree, I continued to work at Zenner IoT Solutions before moving to German Edge Cloud, where I currently work as an SRE, helping development teams deploy with greater frequency and reliability while minimizing service interruptions. Since I have not maintained this Website in a while you can currently only find old university projects here. You can find them under projects with pictures and short descriptions for each of them.
+                            Born and raised in Hamburg, I stayed true to the north and decided to study Applied Computer Science in Flensburg which I finished with a Bachelor of Science in 2021.
+                            During my studies, my focus has been on IoT which is why I interned at Zenner IoT Solutions in Hamburg.
+                            There I got introduced to DevOps and automation. As a member of the DevOps team, I managed all VMs and maintained docker swarm setups, utilizing various tools such as Gitlab CI/CD, Ansible, Nginx, as well as Graylog for logging alongside many others.
+                            During my time as an intern, I set up a k3s kubernetes cluster as well, which raised my interest in container orchestration further.
+                            Because of that I decided to write my thesis on "Comparing Docker Swarm to Kubernetes in Preparation of Migration Projects." about this topic.
+                            After finishing my bachelors, I continued to work at Zenner IoT Solutions before starting at German Edge Cloud.
+                            Here I currently work as an SRE supporting development teams in deploying with greater frequency and reliability while minimizing service interruptions.
+                            On a personal level, my passion is surfing, which offers me the best balance between the IT world and nature.
                         </span>
                     </Row>
                     <Row className='pdTop'>
